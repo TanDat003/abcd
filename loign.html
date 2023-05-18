@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai3-tuan5-layout</title>
+   
+    <style>
+        body{
+            font-family: Arial,Tahoma;
+            font-size: 12px
+        
+        }
+        p{
+            font-size: 15px;
+
+        }
+        #layout{
+            padding: 0;
+            margin: auto;
+            border: 1px solid black;
+           
+            
+        }
+        #header1{
+            height: 80px;
+            background-color: #f5f5f5;
+            
+            color: azure;
+            
+            padding: 5px;
+            
+        }
+        #header1 div img{
+            width: 100px;
+            margin-right: 50px;
+        }
+        
+        #divTK
+        { 
+          
+            width: 500px;
+            height: 30px;
+            float: right;
+            color: black;
+            font-size: 14px;
+            margin-right: 50px;
+        }
+
+        #divDK
+        {
+            color: black;
+            font-size: 14px;
+            float: right;margin-right: 100px;
+            margin-left: 50px;
+        }
+        #header2{
+            
+            background-color: #f5f5f5;
+            color: azure;
+            padding: 5px;
+            
+        }
+        #left{
+            height: 500px;
+            width: 150px;
+            margin-right: 15px;
+            float: left;
+            margin-bottom: 15px;
+            margin-left: 40px;
+        }
+
+        #right{
+            width: 70%;
+            margin-left: 15px;
+            
+            float: right;
+            
+            margin-bottom: 15px;
+            padding: 10px;
+        }
+        #right div
+        {
+            float: left;
+            margin-left: 50px;
+            margin-top: 80px;
+        }
+        #pageF{
+            height: 50px;
+            background-color: #2b98e0;
+            clear: both;
+            margin: auto;
+           color: aliceblue;
+        }
+       
+    .topnav{
+        background-color: #333;
+        overflow: hidden;
+       
+        width: 100%;
+    }
+    .topnav a{
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        
+    }
+    .topnav a:hover{
+        background-color: #aa2424;
+        color:#f2f2f2;
+    }
+    .topnav a.active{
+        background-color: #4CAF50;
+        color: white;
+    }
+    #khung1
+    {
+        border: black solid 1px;
+        text-align: center;
+        width: 80px;
+    }
+    #anh{
+        width: 25%;
+        height: 300px;
+        border: rgb(116, 187, 232) solid 1px;
+        font-size: 20px;
+    }
+    #anh img{
+       width: 100%;
+    }
+    #anh p{
+        margin: 10px;
+        margin-top: 20px;
+    }
+    #menuDK
+        {
+            width: 400px;
+            height: 400px;
+            border: black solid 1px;
+            margin: auto;
+            text-align: center;
+            margin-bottom: 40px;
+            margin-top: 20px;
+        }
+
+        #menudk div
+        {
+            margin: auto;
+        }
+        #imgAnh
+        {
+            width: 20px;
+        }
+        #divDN{
+            color: aliceblue;
+            background-color: rgb(215, 245, 250);
+            border: black solid 1px;
+            width: 200px;
+            margin: auto;
+            margin-bottom: 10px;
+            margin-top: 30px;
+        }
+        #divDN a{
+            text-decoration: none;
+            color: black;
+        }
+        #divDN2{
+            color: aliceblue;
+            background-color:aliceblue;
+            border: black solid 1px;
+            width: 200px;
+            margin: auto;
+            
+        }
+        #divDN2 a{
+            text-decoration: none;
+            color: black; 
+              
+        }
+        #dinhDang
+        {
+            text-align: center;
+            color: blue;
+            font-size: 25px;
+        }
+        .a1
+        {
+            float: left; 
+        }
+        .a2
+        {
+            float: right;
+        }
+        .dien
+        { 
+            margin: auto;
+            width: 250px;
+        }
+        .dien input{
+            width: 90%;
+            padding: 10px;
+        }
+        .dn{
+            width: 100%;
+            background-color: rgb(222, 145, 145);
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .khoahoc{
+            width: 100%;
+            padding: 5px;
+        }
+</style>
+       
+</head>
+<body>
+    <div id="layout">
+        <div id="header1">
+            <div>
+                <a href="index.html"><img src="gitiho1.png" alt=""></a>
+            </div>
+            <div> 
+                <img id="imgmini" src="giohang2.jpg" alt="" style="width: 50px; float: right;">
+            </div>
+            <div id="divDK">
+                <a href="loign.html">Đăng ký/Đăng nhập</a>
+           </div>
+           <div id="divTK">
+                <input class="khoahoc" type="text"placeholder="Tìm kiếm khóa học tại đây">
+           </div>
+           
+          
+        </div>
+        <div id="header2">
+            <div class="topnav">
+                <a href="">Tin học văn phòng</a>
+                <a href="">Dữ liệu</a>
+                <a href="">Ngoại ngữ</a>
+                <a href="">Thiết kế</a>
+                <a href="">Sale</a>
+                <a href="">Lập trình</a>
+                <a href="">Hành chính nhân sự</a>
+            </div>
+        </div>
+        <div id="menuDK">
+
+            <p id="dinhDang"><b>ĐĂNG NHẬP</b></p>
+            <div id="divDN">
+                    <a href="https://www.google.com/"> <img id="imgAnh" src="anhGG.png" alt="">Đăng nhập băng Google</a>
+            </div>
+            <div id="divDN2">
+                <a href="https://www.apple.com/"> <img id="imgAnh" src="apple.png" alt="">Đăng nhập băng Apple</a>
+            </div>
+            <p>Hoặc đăng nhập</p>
+            <div class="dien">
+                <input type="text" placeholder="Email hoặc số điện thoại"><br/><br/>
+                <input type="password" placeholder="Mật khẩu"><br/><br/>
+                <button class="dn" type="submit"> ĐĂNG NHẬP</button><br/><br/>
+                <a class="a1"href="">Lấy lại tài khoản</a>
+                <a class="a2"href="">Đăng ký tài khoản</a>
+            </div>
+        </div>
+        
+       
+        <div id="pageF" style="text-align: center;padding:10px;">
+            <p>Nguyễn Tấn Đạt - 2001210166</p>
+        </div>
+    </div>
+        
+
+</body>
+</html>
